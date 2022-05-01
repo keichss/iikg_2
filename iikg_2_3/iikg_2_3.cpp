@@ -63,7 +63,7 @@ static void RenderSceneCB()
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, IBO);
 
-    glDrawElements(GL_TRIANGLES, 12, GL_UNSIGNED_INT, 0); /* первый параметр - тип примитивов,
+    glDrawElements(GL_TRIANGLES, 12, GL_UNSIGNED_INT, 0); /*первый параметр - тип примитивов,
                                                           второй - количество индексов в индексном буфере,
                                                           третий - тип переменных в буфере индексов,
                                                           четвертый - смещение в байтах*/
